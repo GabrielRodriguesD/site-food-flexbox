@@ -1,15 +1,20 @@
 
-header{
+/* header{
     border: solid 3px pink;
     display: flex;
-    justify-content: ;
     align-items: center;
-}
+} */
 
-.nav{
+/* .nav{
     border: solid 2px black;
     /* padding: 10px; */
     /* display: flex; */
+/*} */
+
+.ul-class{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
 }
 
 .nav>ul{
@@ -67,7 +72,7 @@ main{
 .sushi-section{
     /* height: ; */
     border: solid rgb(42, 46, 165);
-    height: 80%;
+    
 }
 
 
@@ -79,11 +84,6 @@ main{
 /* --------------------------------------------------------------------------------------- */
 
 
-.ul-class{
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-}
 
 .bife-card{
     background-color: rgb(106, 77, 134);
