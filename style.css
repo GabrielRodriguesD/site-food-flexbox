@@ -162,17 +162,38 @@ body{
       
 .card-3{
   display:flex;
-  
+  /* justify-content: space-between; */
+  gap: 40px;
 }
       
 .card-3>section{
-  width: 100%;
+    border: solid blueviolet;
+    width: 100%;
 }
 
 .card-3 img{
   width:100%;
 }
-      
+
+.card-3 h2{
+    text-align: center;
+}
+.card-3 p{
+    text-align: center;
+}
+   
+.card-3 figure{
+    border: dotted 2px blue;
+    /* position: relative; */
+}
+
+/* .card-3 div{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    border-radius: 25px;
+    /* position: absolute; */
+} */
       
 
 /*-- 3 pratos------------------------*/
