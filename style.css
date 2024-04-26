@@ -1,5 +1,7 @@
 body{
-    padding: 5px 20px 5px 20px;
+    border: solid ;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -19,8 +21,8 @@ main{
     padding-right: 15%;  
 }
 
-header{
-    padding: 5px 20px 5px 20px;
+.header-nav{
+    padding: 0%;
 }
 
 /* --- Header--------------------------------------------------- */
