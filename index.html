@@ -17,7 +17,7 @@
             </div>
              
            
-                <ul class="menu">
+                <ul>
 
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Cardápio</a></li>
@@ -25,68 +25,78 @@
                 </ul>
            
              
-            <button style="background-color: white; height: 28px; width: 110px; border: solid 1.5px; border-radius: 5px;font-weight: bold;" type="button">Entrar</button>
+            <button style="background-color: white; height: 28px; width: 110px; border: solid 1.5px; border-radius: 5px;font-weight: bold; cursor: pointer;" type="button">Entrar</button>
                
         </nav>
     </header>
     <main>
     <!--Card 1 ----------------------------------------- -->
     <section class="card-1">
-        <section class="sushi-texto">
+        <section>
                   <h1>Comida Oriental</h1>
-                  <p>A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (õmega 3), vegetais, massas e ingredientes frescos</p>
-                  <button style="background-color: #DA2535;color: white; height: 34px; width: 150px; border: solid 1.5px; border-radius: 5px; " type="button">Cardápio</button>
+                  <p>A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (õmega 3), vegetais, massas e ingredientes frescos.</p>
+                  <button style="background-color: #DA2535;color: white; height: 34px; width: 150px; border: solid 1.5px; border-radius: 5px; cursor: pointer; " type="button">Cardápio</button>
         </section>
         <div>
             <img class="sushi-section" src="/img/Sushi.png" alt="">
         </div>  
     </section>
+
+
     <!--Card 2----------------------------------------- -->
     <section class="card-2">
         <div>
         <img src="/img/img segurando prato.png" alt="">
         </div>
         <section class="bife-texto">
-            <h1>Feita de FormaTradicional</h1>
+            <h1>Feita de Forma Tradicional</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             <a href="#">Ler mais sobre o modo de preparo </a>
         </section>  
     </section>
     <!--Card 2----------------------------------------- -->
     
-     <!-- Card 3 ------------------------>
+    <!-- Card 3 ------------------------>
 
-    <h2>Mais populares</h2>
-        <section class="card-3">
-            <section>
-                <figure>
-                    <img src="/img/imgPrato1.png" alt="">
-                    <h2>Ramen de Frango</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </figure>
-                <div></div>
+    <h1 class="mais-populares">Mais populares</h1>
+    <section class="card-3">
+        <section>
+            <figure class="prato-1-descricao">
+                <img src="/img/imgPrato1.png" alt="">
+                <h1>Ramen de Frango</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p style="color: black;font-weight: bolder;font-family: 'Montserrat'; font-size: 25px;">R$ 30</p>
+                
+            </figure>
+            <!-- <img class="fundo" src="img/bg.png" alt=""> -->
+                
             
-            </section>
+        </section>
             
             <section>
               <figure>
                 <img src="/img/imgPrato2.png" alt="">
-                <h2>Ramen Apimentado</h2>
+                <h1>Ramen Apimentado</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </figure>
-            <div></div>
-              </figure>
-            </section>
-            
-            <section>
-              <figure>
-                  <img src="/img/imgPrato3.png" alt="">
-                  <h2>Ramen Tradicional</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </figure>
-                <div></div>
 
-              </figure>
+                <p style="color: black;font-weight: bolder;font-family: 'Montserrat'; font-size: 25px;">R$ 30</p>
+            </figure>
+            <!-- <img src="img/bg.png" alt=""> -->
+            
+            
+        </section>
+        
+        <section>
+            <figure>
+                <img src="/img/imgPrato3.png" alt="">
+                <h1>Ramen Tradicional</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p style="color: black;font-weight: bolder;font-family: 'Montserrat'; font-size: 25px;">R$ 30</p>
+                </figure>
+                <!-- <img src="img/bg.png" alt=""> -->
+                
+
+              
             </section>
         </section>
 
@@ -94,29 +104,45 @@
       
       <!-- Card 4------------------------>
       
-      
-      <section>
-          <h2>Comentários</h2>
-          <section>
-              <img src="/img/img profile 1.png" alt="">
-              <img src="/img/img profile 2.png" alt="">
-            </section>
-        </section>
+        <div>
+            <h1 style="font-family: 'Montserrat'; font-size: 25px;">Comentários</h1>
+        </div>
+    <section class="card-4">
+
+            
+                <figure class="comentario-1">
+                    <img class="foto-2" src="/img/img profile 1.png" alt="">
+                    <h1>Daniele Almeida</h3>
+                    <p>Ótimo serviço! Encantada com a qualidade no prato</p>
+                    <img class="estrela-1" src="/img/estrelas.svg" alt="">
+                </figure>
+                
+                <figure class="comentario-2">
+                    
+                    <img class="foto-2" src="/img/img profile 2.png" alt="">
+                    <h1>Ricardo França</h3>
+                    <p>Não é apenas a comida excelente, o serviço torna a experiência especial.</p>
+                    <img class="estrela-2" src="/img/estrelas.svg" alt="">
+                </figure>
+              
+    </section>
         
         <!-- Card 4------------------------>
         
         <!-- Card 5------------------------>
         
         <section class="card-5">
-            <figure>
-
-                <h2>Localização</h2>
-                <div>
-                    <img src="/img/mapa rio.png" alt="">
-                </div>
-            </figure>
+            <div>
+                <h1>Localização</h1>
             
-            <input type="text">Localização para entrega
+                <img src="/img/mapa rio.png" alt="">
+            </div>
+            <article>
+
+                <img src="/img/fi_map-pin.svg" alt="">
+                <input type="search" placeholder="Localização para entrega">
+            </article>
+
         </section>
     </main>
     <!-- Card 5------------------------>
@@ -127,22 +153,23 @@
             <section>
                 <h3>Contato</h3>
                 <ul>
-                    <li><a href="">Sobre nós</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="">+55 21 9999-9999</a></li>
+                    <li><a href="">email@gmail.com</a></li>
                 </ul>
             </section>
             <section>
                 <h3>Sobre Nós</h3>
                 <ul>
-                    <li><a href="">Sobre nós</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Valores</a></li>
+                    <li><a href="">Pagina principal</a></li>
                 </ul>
             </section>
             <section>
                 <h3>Serviços</h3>
                 <ul>
-                    <li><a href="">Sobre nós</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="">Entrega</a></li>
+                    <li><a href="">Retirada</a></li>
                 </ul>
             </section>
            
